@@ -1,8 +1,8 @@
 "use client";
 
 import { useCallback } from "react";
-import Particles from "react-tsparticles";
-import { loadSlim } from "tsparticles-slim";
+import Particles from "@tsparticles/react";
+import { loadSlim } from "@tsparticles/slim";
 
 export default function ParticlesBackground() {
 
@@ -13,7 +13,7 @@ export default function ParticlesBackground() {
   return (
     <Particles
       id="tsparticles"
-      init={particlesInit}
+     
       options={{
         fullScreen: false,
 
